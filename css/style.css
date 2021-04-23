@@ -1,0 +1,247 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display';
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*font start*/
+@font-face{
+	src: url(../front/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+	font-family: PlayfairDisplay;
+}
+/*font end*/
+/*header start*/
+header{
+	padding: 20px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	padding: 20px 0px;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 8px;
+	width: 10%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	margin-top: 5px;
+	float: right;
+}
+.menu ul li{
+	margin-left: 100px;
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 3px 3px;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	
+.menu ul li:last-child a;
+	margin-right: 0; 
+}
+.menu ul li a: hover{
+	border-bottom: 1px solid #626262;
+
+}
+
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*gataway start*/
+.getaway{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+}
+.b_content{}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e
+	text-transform: uppercase;
+}
+.c_heading1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 27px;
+}
+.mt_40{
+	margin-top: 40px;
+}
+/*gataway end*/
+/*blog start*/
+.blog{
+	padding: 30px 0 80px;
+}
+.b_wrapper{
+	overflow: hidden;
+}
+.single{
+	margin-top: 50px;
+	width: 47%;
+	float: left;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 25px;
+	width: 100%;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	background-color: #ddd;
+	min-height: 400px;
+}
+.newsletter_container{
+	margin-top: 10px;
+	text-align: center;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.titlesignup{
+	margin-top: 0;
+    margin-bottom: 70px;
+    color: #333333;
+}
+.s_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.s-form input{
+	font-size: 14px;
+	color: #626262;
+	width: 400px;
+	height: 45px;
+	border: none;
+	background-color: transparent;
+	transform: translate(55px, 0px);
+}
+.s-form button:focus{
+	outline: 0;
+}
+.s-form button{
+	cursor: pointer;
+	border: none;
+	background:transparent;
+	transform: translate(110px, -32px);
+}
+.s-form button img{}
+/*newsletter end*/
+/*blog2 start*/
+.loadmore{
+	text-align: center;
+}
+.loadmore button{
+	margin: 150px 0;
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+	transition: .3s;
+}
+.loadmore button:hover{
+	background-color: #626262;
+	color: white;
+	border: 1px solid #626262;
+}
+.loadmore button:focus{
+	outline: 0;
+}
+/*blog2 end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+}
+.f_container{
+	margin: 0 auto;
+	width: 90%;
+	padding: 30px 0;
+	overflow: hidden;
+}
+.leftfooter{
+	/*margin: 0 auto;
+	float: left;*/
+	width: 30%;
+} 
+.leftfooter p{
+	margin-right: 20px;
+	float: left;
+}
+.rightfooter{
+	/*margin: 0 auto;*/
+	width: 20%;	
+	/*overflow: hidden;*/
+	float: right;
+}
+.rightfooter p{
+	display: inline-block;
+}
+.rightfooter ul{
+	float: right;
+}
+.rightfooter ul li{
+	/*list-style: none;
+	float: left;*/
+	display: inline-block;
+    margin-left: 20px;
+}
+.rightfooter ul li a img{
+	font-family: playfair display;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 0 10px 0 10px;
+	color: black;
+	list-style: none;
+	float: right;
+}
+
+/*footer end*/
